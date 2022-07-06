@@ -44,7 +44,7 @@ export const OtherProjectsData = [
             return (
                 <ul>
                     <li style={{lineHeight: "2em"}}>Example websites:
-                        <div><a href="https:/lukaszjarmula.com" target="_blank" rel="noreferrer">https://lukaszjarmula.com</a> - my brother's, a chess grandmaster, website; </div>
+                        <div><a href="https://lukaszjarmula.com" target="_blank" rel="noreferrer">https://lukaszjarmula.com</a> - my brother's, a chess grandmaster, website; </div>
                         <div><a href="https://niezalezni.waw.pl" target="_blank" rel="noreferrer">https://niezalezni.waw.pl</a> - Warsaw indepenedent theater database; </div>
                     </li>
                     <li><b>Additional functionalities, built with HTML, CSS and JS</b> (e.g. map functionality on the second example website).</li>

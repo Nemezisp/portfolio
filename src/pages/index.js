@@ -36,6 +36,7 @@ const IndexPage = () => {
   return (
     <AppContainer>
       <Helmet>
+        <title>PJ Portfolio</title>
         <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
