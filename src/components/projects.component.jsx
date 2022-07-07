@@ -138,7 +138,7 @@ const Projects = () => {
                     )
                 })
             }
-            <h3 style={{marginBottom: "10px", marginTop:"40px"}}>Other Things I Built</h3>
+            <h3 style={{marginBottom: "10px", marginTop:"40px", fontWeight:"900"}}>Other Things I Built</h3>
             <OtherProjects>
                 {OtherProjectsData.map((project) => {
                     return (
