@@ -1,3 +1,4 @@
-<h1 align="center">
-  My portfolio website
-</h1>
+# My portfolio website
+Live version at: https://nemezisp.github.io/portfolio/.
+
+Built in **Gatsby.js** with **Styled Components**.
