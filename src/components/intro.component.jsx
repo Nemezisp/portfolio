@@ -55,7 +55,7 @@ const Intro = () => {
             </FirstTitleHalf>
             <h1>And I'm a Web Developer.</h1>
             <IntroText>{`I love building all kinds of things with main focus on web development. 
-            Also passionate about blockchain and machine learning technologies.
+            Passionate about web3 and blockchain technologies.
             If I have an idea, I will build it. If I'm interested in a technology, I will learn it. The main point is to always challenge myself.`}
             </IntroText>
 

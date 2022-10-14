@@ -1,7 +1,6 @@
 import React, {Fragment} from "react";
 
 export const ProjectsData = [
-    
     {
         title: "Chess WDA",
         githubLink: "https://github.com/Nemezisp/chess-wda",
@@ -35,6 +34,39 @@ export const ProjectsData = [
                 <Fragment>
                     <p>Chess With Different Armies - chess variation with 12 additional pieces!</p>
                     <p>Play locally or online!</p>
+                </Fragment>
+            )
+        }
+    },
+    {
+        title: "ERC20 DEX",
+        githubLink: "https://github.com/Nemezisp/dex-backend",
+        websiteLink: "https://dexerc20.vercel.app/",
+        techList: ["Solidity", "Hardhat", "Next.js", "CSS", "Moralis", "Ethers.js"],
+        mainTech: "Solidity (Hardhat) + Next.js",
+        deployedWith: "Vercel",
+        apiList: [],
+        mainImageName: "dex.png",
+        secondImageName: "dex-2.png",
+        shortDescription: () => <span>Web 3 decentralized exchange built using <b>Next.js</b> (frontend) and <b>Hardhat</b> (backend), deployed on Kovan testnet.</span>,
+        longDescription: () => {
+            return (
+                <Fragment>
+                    <ul>
+                        <li><b>Swap</b> between any ERC20 tokens (choose from the list or add any token using its address).</li>
+                        <li>Create new liquidity pairs, <b>add or remove liquidity</b>.</li>
+                        <li>Web3 part developed in <b>Hardhat</b>. Set of <b>contracts</b> &rarr; sample <b>ERC20 tokens</b> / <b>Factory</b> (responsible for new pair creation) / <b>Router</b> (responsible for most actions, swapping tokens, adding and removing liquidity) / <b>Pair</b> (for each created pair, holds all the pair liquidity, also acts as a liquidity token).</li>
+                        <li>Deployed to <b>Kovan</b> testnet.</li>
+                        <li>Set of smart contract tests <b>(Waffle, Mocha, Chai)</b>. </li> 
+                    </ul>
+                </Fragment>
+            )
+        },
+        mainPageDescription: () => {
+            return (
+                <Fragment>
+                    <p>Decentralized token exchange - swap between any ERC20 tokens!</p>
+                    <p>Create new pairs, add and remove liquidity!</p>
                 </Fragment>
             )
         }
@@ -74,7 +106,7 @@ export const ProjectsData = [
         }
     },
     {
-        title: "Face Rec",
+        title: "Everything Rec",
         githubLink: "https://github.com/Nemezisp/face-rec-app",
         websiteLink: "https://face-rec-app-11.herokuapp.com/",
         techList: ["React", "Express.js", "Node.js", "SQL", "Redis", "CSS", "Docker", "Amazon S3"],

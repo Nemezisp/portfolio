@@ -151,6 +151,7 @@ const Projects = () => {
                         </OtherProject>
                     )
                 })}
+                <OtherProjectTitle>And more...</OtherProjectTitle>
             </OtherProjects>
         </Container>
     )

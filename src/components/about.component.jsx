@@ -112,10 +112,10 @@ const About = () => {
     const studiesTechList = ["C++", "Python", "Mathematica", "Octave", "numerical methods", "data analysis"]
     const independentStudiesTechList = ["web development (HTML, CSS, JavaScript, React)", "machine learning (Scikit-learn)", "web scraping (Selenium)"]
     
-    const frontendStack = ["HTML", "CSS", "Saas", "JavaScript", "TypeScript", "React", "Redux", "Next.js", "Gatsby.js", "Styled-Components"]
-    const backendStack = ["Node.js", "Express.js", "REST APIs", "GraphQL", "Socket.IO", "Solidity", "Hardhat"]
+    const frontendStack = ["JavaScript", "React", "HTML", "CSS", "Sass", "TypeScript", "Redux", "Next.js", "Gatsby.js", "Styled-Components"]
+    const backendStack = ["Node.js", "Express.js", "REST APIs", "GraphQL", "Socket.IO", "Solidity", "Hardhat", "Ethers.js"]
     const databaseStack = ["SQL", "Firebase", "Airtable", "Redis", "MongoDB"]
-    const otherStack = ["Docker", "AWS (S3, Lambda)", "Mocha", "Git", "WordPress"]
+    const otherStack = ["Docker", "AWS (S3, Lambda)", "Mocha", "Git", "WordPress", "Moralis"]
     const nonWebStack = ["Python", "Scikit-learn", "TensorFlow", "Mathematica", "Octave", "Selenium"]
 
     return (

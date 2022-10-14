@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import resume from '../assets/pj-cv.pdf' 
 
 const NavContainer = styled.div`
     height: 80px;
@@ -39,7 +40,7 @@ const StyledLink = styled.a`
     }
 `
 
-const ResumeButton = styled.button`
+const ResumeButton = styled.a`
     color: var(--links);
     border: 1px solid var(--links);
     background-color: transparent;
@@ -49,6 +50,7 @@ const ResumeButton = styled.button`
     cursor: pointer;
     transition: 0.3s;
     margin-left: 15px;
+    text-align: center;
 
     @media (min-width: 480px) {
         margin-left: 20px;
@@ -71,7 +73,7 @@ const Navigation = () => {
             <StyledLink href="#about-me">About Me</StyledLink>
             <StyledLink href="#my-projects">My Projects</StyledLink>
             <StyledLink href="#contact">Contact</StyledLink>
-            <ResumeButton>Resume</ResumeButton>
+            <ResumeButton href={resume} download="pj-cv.pdf">Resume</ResumeButton>
         </NavContainer>
     )
 }

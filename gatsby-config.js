@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `PJ-Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://nemezisp.github.io/portfolio/`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-styled-components", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",

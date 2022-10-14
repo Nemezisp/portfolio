@@ -2,6 +2,18 @@ import React from "react";
 
 export const OtherProjectsData = [
     {
+        title: "Set of Web3 projects",
+        mainTech: "Solidity + Hardhat + Next.js",
+        description: () => {
+            return (
+                <ul>
+                    <li>Built as a part of FCC Web3 course (some of them on my Github).</li>
+                    <li>Many different projects, including a lottery, nft marketplace, few different types of NFTs, tokens and a DAO.</li>
+                </ul>
+            )
+        }
+    },
+    {
         title: "Blockchain token sniping bot",
         mainTech: "Ethers.js",
         description: () => {
