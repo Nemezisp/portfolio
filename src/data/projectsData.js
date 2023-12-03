@@ -4,9 +4,9 @@ export const ProjectsData = [
     {
         title: "Chess WDA",
         githubLink: "https://github.com/Nemezisp/chess-wda",
-        websiteLink: "https://chess-wda.herokuapp.com/",
+        websiteLink: "https://chess-wda-nemezisp.vercel.app/",
         techList: ["React", "Redux", "Express.js", "Node.js", "Firebase", "Socket.IO", "CSS"],
-        deployedWith: "Heroku",
+        deployedWith: "Vercel (frontend) + Heroku (server)",
         mainTech: "React + Express.js",
         apiList: [],
         mainImageName: "ChessWDA.png",
@@ -108,9 +108,9 @@ export const ProjectsData = [
     {
         title: "Everything Rec",
         githubLink: "https://github.com/Nemezisp/face-rec-app",
-        websiteLink: "https://face-rec-app-11.herokuapp.com/",
+        websiteLink: "https://face-rec-app.vercel.app//",
         techList: ["React", "Express.js", "Node.js", "SQL", "Redis", "CSS", "Docker", "Amazon S3"],
-        deployedWith: "Heroku",
+        deployedWith: "Vercel (frontend) + Heroku (server)",
         mainTech: "React + Express.js",
         apiList: ["Clarifai"],
         mainImageName: "face-rec.png",

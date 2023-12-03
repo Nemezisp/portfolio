@@ -86,7 +86,7 @@ const Contact = () => {
                     <span>Any questions or ideas? Want to work together? </span>
                     <span> I'm always happy to talk:</span>
                     <div style={{display: "inline-flex", gap: "20px", alignItems: "center"}}>
-                        <a style={{height: "24px"}} href={"mailto:p.jarmula7@gmail.com"} target="_blank" rel="noreferrer">
+                        <a style={{height: "24px"}} href={"mailto:p.jarmula5@gmail.com"} target="_blank" rel="noreferrer">
                             <Icon width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                                 <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/>
                             </Icon>
@@ -103,7 +103,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <span style={{fontSize: "14px"}}>
-                        p.jarmula7@gmail.com
+                        p.jarmula5@gmail.com
                     </span>
                 </ContactContainer>
                 <ResumeContainer>

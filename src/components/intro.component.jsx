@@ -53,10 +53,10 @@ const Intro = () => {
                     style={{width:"max(8vw, 80px)", height:"max(8vw, 80px)"}}>
                 </lord-icon>
             </FirstTitleHalf>
-            <h1>And I'm a Web Developer.</h1>
-            <IntroText>{`I love building all kinds of things with main focus on web development. 
-            Passionate about web3 and blockchain technologies.
-            If I have an idea, I will build it. If I'm interested in a technology, I will learn it. The main point is to always challenge myself.`}
+            <h1>And I'm a Full Stack Developer.</h1>
+            <IntroText>{`I love solving all kinds of problems, particularly in cloud and web development. 
+            Eagerly exploring new challenges, I turn ideas into creations and rapidly adapt to new technologies.
+            Committed to pushing my skills' boundaries, my journey is about constantly evolving, building, and learning in the dynamic tech landscape.`}
             </IntroText>
 
             <a href="#my-projects">
